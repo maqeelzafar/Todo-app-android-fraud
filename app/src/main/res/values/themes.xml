@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.android_firebase_todo_app" parent="Theme.MaterialComponents.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/blueMaterial</item>
+        <item name="colorPrimaryDark">@color/darkBlueMaterial</item>
+        <item name="colorOnPrimary">@color/textIcons</item>
+        <item name="color">@color/textIcons</item>
+        <item name="colorAccent">@color/amberSecondaryMaterial</item>
+
+        <item name="colorSecondary">@color/amberSecondaryMaterial</item>
+        <item name="colorSecondaryVariant">@color/amberSecondaryMaterial</item>
+        <item name="colorOnSecondary">@color/textIcons</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="Theme.android_firebase_todo_app.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.android_firebase_todo_app.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.android_firebase_todo_app.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="CustomEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+    </style>
+</resources>

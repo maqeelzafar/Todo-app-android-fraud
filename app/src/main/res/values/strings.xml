@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">To Do App</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtAppImage">App image</string>
+    <string name="txtStartApp">Start</string>
+    <string name="txtNuevoTODO">Enter new To-Do</string>
+    <string name="txtTituloTodo">Title</string>
+    <string name="txtContenidoTodo">What do you want to remember?</string>
+    <string name="txtCrearTodo">Create To-Do</string>
+    <string name="txtListaToDos">View list</string>
+    <string name="txtFecha">Date</string>
+    <string name="txtMostrarCreditos">Show credits</string>
+
+    <string name="default_web_client_id" translatable="false">webClientId.apps.googleusercontent.com</string>
+
+
+    <string-array name="spinner_items">
+        <item>by tag</item>
+        <item>by status</item>
+    </string-array>
+
+
+</resources>
